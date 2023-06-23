@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+}
+
+#pokemon-list{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 10%;
+}
+
+#nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(20, 79, 30);
+  padding: 5% 50%;
+}
+
+#nav-bar button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 10px;
+	outline: inherit;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: 'Press Start 2P';
+  font-size: 1.5em;
+}
+
+#search {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
